@@ -771,10 +771,10 @@ hr {
 @media screen and (max-width: 640px) {
   .main-wrapper {
     margin: 0;
-    width: 85%;
-    max-width: 85%;
-    height: 85vh;
-    max-height: 85vh;
+    width: 65%;
+    max-width: 65%;
+    height: 65vh;
+    max-height: 65vh;
   }
   .admin-cp {
     display: none;
