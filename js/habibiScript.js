@@ -251,8 +251,8 @@ var timeEngine = {
     // Subtract (100 / total game play time / 10)
     // 10 to make it smaller, and the time is 0.1 of a second (100ms)
     // 100ms is the time in the Start function
-    timeEngine.timeLeft = timeEngine.timeLeft - (1/10); // update time left
-    timeEngine.progressValue = timeEngine.timeLeft * 100 / gameEngine.levelTime; // update the value for the progress bar
+    timeEngine.timeLeft = timeEngine.timeLeft - (1/5); // update time left
+    timeEngine.progressValue = timeEngine.timeLeft * 20 / gameEngine.levelTime; // update the value for the progress bar
     gmStatsTimeProgress.style.width = timeEngine.progressValue + "%";
     timeEngine.checkTime(); // Check if game's time is 0
   },
@@ -549,7 +549,7 @@ levelsEngine = {
   levels : [
     {
       levelNum: 1,
-      time: 4, // Time in seconds for the current level
+      time: 7, // Time in seconds for the current level
       tapValue: 4,
       tapsGoal: 5,
       goodCirclesCount: 1,
@@ -568,7 +568,7 @@ levelsEngine = {
   },
   resetLevels: function() { // TODO
     levelsEngine.levels = [];
-    levelsEngine.addNewLevel(1, 4, 3, 5, 1, 4);
+    levelsEngine.addNewLevel(1, 7, 3, 5, 1, 4);
   }
 }
 
