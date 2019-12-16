@@ -549,7 +549,7 @@ levelsEngine = {
   levels : [
     {
       levelNum: 1,
-      time: 3, // Time in seconds for the current level
+      time: 4, // Time in seconds for the current level
       tapValue: 4,
       tapsGoal: 5,
       goodCirclesCount: 1,
