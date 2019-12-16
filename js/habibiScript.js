@@ -367,7 +367,7 @@ var circlesEngine = {
 var gameEngine = { 
   // Current level settings
   levelNum:1, // current level number
-  levelTime: 10, // Time in seconds for the current level
+  levelTime: 4, // Time in seconds for the current level
   tapNum: 0, // how many times it was tapped so far
   tapsGoal: 10, // Number of taps required to finish the level
   tapValue: 13, // How much does the tap add to the score
@@ -514,7 +514,7 @@ var gameEngine = {
     // Add new level
     levelsEngine.addNewLevel( // add new level to the levels engine
       gameEngine.levelNum,
-      gameEngine.levelTime + 1,
+      gameEngine.levelTime,
       gameEngine.tapValue + 2,
       gameEngine.tapsGoal + 1,
       1, // good circles count
