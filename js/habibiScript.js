@@ -550,7 +550,7 @@ levelsEngine = {
     {
       levelNum: 1,
       time: 3, // Time in seconds for the current level
-      tapValue: 3,
+      tapValue: 4,
       tapsGoal: 5,
       goodCirclesCount: 1,
       evilCirclesCount: 4
@@ -568,7 +568,7 @@ levelsEngine = {
   },
   resetLevels: function() { // TODO
     levelsEngine.levels = [];
-    levelsEngine.addNewLevel(1, 7, 3, 5, 1, 4);
+    levelsEngine.addNewLevel(1, 4, 3, 5, 1, 4);
   }
 }
 
