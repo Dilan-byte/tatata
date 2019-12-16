@@ -782,16 +782,7 @@ hr {
 }
 
 @media screen and (max-height: 480px) {
-  .main-wrapper {
-    margin: 0;
-    width: 80%;
-    max-width: 80%;
-    height: 80vh;
-    max-height: 80vh;
-  }
-  .admin-cp {
-    display: none;
-  }
+
     body {
     font-size: 1.6rem;
   }
