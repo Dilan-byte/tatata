@@ -251,7 +251,7 @@ var timeEngine = {
     // Subtract (100 / total game play time / 10)
     // 10 to make it smaller, and the time is 0.1 of a second (100ms)
     // 100ms is the time in the Start function
-    timeEngine.timeLeft = timeEngine.timeLeft - (1/2); // update time left
+    timeEngine.timeLeft = timeEngine.timeLeft - (1/4); // update time left
     timeEngine.progressValue = timeEngine.timeLeft * 100 / gameEngine.levelTime; // update the value for the progress bar
     gmStatsTimeProgress.style.width = timeEngine.progressValue + "%";
     timeEngine.checkTime(); // Check if game's time is 0
