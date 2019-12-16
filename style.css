@@ -784,10 +784,10 @@ hr {
 @media screen and (max-height: 480px) {
   .main-wrapper {
     margin: 0;
-    width: 50%;
-    max-width: 50%;
-    height: 50vh;
-    max-height: 50vh;
+    width: 70%;
+    max-width: 70%;
+    height: 70vh;
+    max-height: 70vh;
   }
   .admin-cp {
     display: none;
